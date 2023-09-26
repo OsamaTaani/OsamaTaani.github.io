@@ -35,4 +35,4 @@ To view the live website, visit [Website Link](https://osamataani.github.io/).
 ## wireframe and mockup links
 
 - Wireframe: [Wireframe](https://www.figma.com/file/307KkAiNqRHe3rQGtF5xET/Untitled?type=design&node-id=0%3A1&mode=design&t=IsCWeL5LdhUceE2n-1)
--Mockup: [Mockup](https://www.figma.com/file/Br8NNjasJGiXQmVpZxVRNH/Untitled?type=design&node-id=0%3A1&mode=design&t=Fp6hUcVN5seUgYu0-1)
+- Mockup: [Mockup](https://www.figma.com/file/Br8NNjasJGiXQmVpZxVRNH/Untitled?type=design&node-id=0%3A1&mode=design&t=Fp6hUcVN5seUgYu0-1)
