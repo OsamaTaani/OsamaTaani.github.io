@@ -25,19 +25,14 @@ This project is a responsive portfolio website that showcases my work and skills
 
 ## How to View the Website
 
-To view the live website, visit [Website Link](https://your-website-link.com).
+To view the live website, visit [Website Link](https://osamataani.github.io/).
 
 ## Contact Information
 
 - Email: osamataani07@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/osamataani/)
-- Twitter: [@YourTwitterHandle](https://twitter.com/your-twitter-handle)
+- LinkedIn: [Osama Taani](https://www.linkedin.com/in/osamataani/)
 
-## Acknowledgments
+## wireframe and mockup links
 
-- Special thanks to Figma for their design tools.
-- Inspiration drawn from various online resources and tutorials.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- Wireframe: [Wireframe](https://www.figma.com/file/307KkAiNqRHe3rQGtF5xET/Untitled?type=design&node-id=0%3A1&mode=design&t=IsCWeL5LdhUceE2n-1)
+-Mockup: [Mockup](https://www.figma.com/file/Br8NNjasJGiXQmVpZxVRNH/Untitled?type=design&node-id=0%3A1&mode=design&t=Fp6hUcVN5seUgYu0-1)
