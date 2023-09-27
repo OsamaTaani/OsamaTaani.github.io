@@ -131,12 +131,14 @@ header .nav-bar a{
     text-decoration: none;
     margin-left: 30px;
 }
+
 header .nav-bar a:hover{
     color: darkorange;
 }
 header .nav-bar a:active{
     color: darkorange;
 }
+
 
 body{
     min-height: 110vh;
@@ -268,12 +270,13 @@ body{
     background: white;
     width: 340px;
     margin: 10px;
-    padding: 25px;
-    justify-content: center;
+    padding: 50px;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 5px 25px rgb(1 1 1 / 15%); 
     border-radius: 10px;
+    position: relative;
 }
 .projects .card:hover {
     transform: translateY(-10px);
@@ -283,12 +286,18 @@ body{
 
 .projects .card .info{
     text-align: center;
+    flex-grow: 1;
 }
 .projects .card .info h3{
     color: #264067;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+.card a{
+    bottom: 20px;
+    left: 35%;
+    position: absolute;
 }
 
 .contact .content{
@@ -299,54 +308,60 @@ body{
     margin-top: 20px;
 }
 
-.contact .content .row{
+.contact .content .roww{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
-.contact .content .row .card{
+.contact .content .roww .card{
     background: white;
-    width: 600px;
+    width: 100%;
     margin: 20px;
-    padding: 25px;
+    padding: 72px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
     border-radius: 10px;
    
 }
-.contact .content .row .card:hover{
+.contact .content .roww .card:hover{
     transform: translateY(-10px);
     transition: transform 0.5s ease;
+    background: darkorange;
 
 
 }
-.contact .content .row .card .contact-icon{
+.contact .content .roww .card .contact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: #264067;
-    font-size: 4em;
-    text-align: center;
-    
+    font-size: 6em;
+    margin-bottom: 10px;
 }
 
-.contact .content .row .card .info{
+
+
+.contact .content .roww .card .info{
     text-align: center;
 }
-.contact .content .row .card .info h3{
+.contact .content .roww .card .info h3{
     color: #264067;
     font-size: 1.2em;
     font-weight: 700;
     margin: 20px;
 }
-.contact .content .row .card .info span{
+.contact .content .roww .card .info span{
     color: #666;
     font-weight: 500;
 }
-.contact .content .row .card .bttn{
+.contact .content .roww .card .bttn{
     margin: 20px;
 }
 .contact-form{
@@ -398,6 +413,8 @@ body{
 .contact-form .input-box .send-btn:hover{
     background: darkorange;
 }
+
+
 .footer{
     background: #264067;
     color: #fff;
@@ -418,7 +435,67 @@ body{
     text-decoration: none;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 600px) {
+    header{
+        padding: 10px 10px;
+    }
+    header .nav-bar{
+        display: none;
+    }
+    .menu-btn{
+        position: absolute;
+        background: url(menu.png) no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    section{
+        padding: 100px 10px;
+    }
+    .main .content h2 {
+        font-size: 1.2em;
+    }
+    .animatied-text h3 {
+        font-size: 2.2em;
+    }
+    .section-title{
+        font-size: 1.8em;
+    }
+    .about .content{
+        flex-direction: column;
+    }
+    .about .content .column{
+        position: relative;
+        width: 100%;
+    }
+    .about .content .col-right{
+        margin-top: 40px;
+    }
+    .skills .content{
+        flex-direction: column;
+    }
+    .skills .content .column{
+        position: relative;
+        width: 100%;
+    }
+    .skills .content .col-right{
+        margin-top: 40px;
+    }
+    .contact .content .roww {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+   
+}
+
+@media (max-width: 601px) {
     header{
         padding: 10px 10px;
     }
@@ -471,6 +548,7 @@ body{
     }
    
 }
+
 
 
 
@@ -563,7 +641,7 @@ ul.timeline-list li:before {
 	content: "";
 	width: 25px;
 	height: 25px;
-	background-color: #ff3636;
+	background-color: darkorange;
 	left: 50%;
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -574,5 +652,5 @@ ul.timeline-list li:before {
 	font-size: 18px;
 	font-weight: 500;
 	font-family: poppins;
-	color: #ff3636;
+	color: darkorange;
 }
